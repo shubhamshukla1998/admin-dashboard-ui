@@ -1,0 +1,9 @@
+@media (max-width: 767.98px) {
+  .page-header .page-subtitle {
+    font-size: 0.8125rem;
+    font-weight: 400;
+  }
+  .page-header .page-title {
+    font-size: 2rem;
+  }
+}
