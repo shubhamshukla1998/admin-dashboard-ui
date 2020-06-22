@@ -19,7 +19,6 @@ const Register = () => {
                   </label>
                   <input
                     type="text"
-                    value=""
                     name="name"
                     id="name"
                     placeholder="Your Name"
@@ -32,7 +31,6 @@ const Register = () => {
                   </label>
                   <input
                     type="email"
-                    value=""
                     name="email"
                     id="email"
                     placeholder="Your Email"
@@ -45,7 +43,6 @@ const Register = () => {
                   </label>
                   <input
                     type="password"
-                    value=""
                     name="password"
                     id="pass"
                     placeholder="Password"
@@ -58,7 +55,6 @@ const Register = () => {
                   </label>
                   <input
                     type="password"
-                    value=""
                     name="password"
                     id="rpass"
                     placeholder="Confirm Password"
@@ -82,7 +78,6 @@ const Register = () => {
                   <input
                     class="form-check-input"
                     type="checkbox"
-                    value=""
                     id="defaultCheck1"
                   />
                   <label class="form-check-label" for="defaultCheck1">

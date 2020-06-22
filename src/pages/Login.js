@@ -27,7 +27,6 @@ const Login = () => {
                   </label>
                   <input
                     type="email"
-                    value=""
                     name="email"
                     id="email"
                     placeholder="Email"
@@ -40,7 +39,6 @@ const Login = () => {
                   </label>
                   <input
                     type="password"
-                    value=""
                     name="password"
                     id="pass"
                     placeholder="Password"
