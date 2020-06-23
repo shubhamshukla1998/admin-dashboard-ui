@@ -16,7 +16,7 @@ const Sidebar = () => {
       >
         <Nav.link href="/home">Welcome</Nav.link>
       </Nav> */}
-      <a class="toggle-sidebar d-sm-inline d-md-none d-lg-none">
+      <a className="toggle-sidebar d-sm-inline d-md-none d-lg-none custom-link">
         <p>Toggle</p>
       </a>
       <Nav
@@ -25,42 +25,42 @@ const Sidebar = () => {
         bg="light"
         expand="lg"
       >
-        <Nav.Link>
+        <Nav.Link className="custom-link">
           <h3>Welcome</h3>
         </Nav.Link>
       </Nav>
       {/* <div className="d-table m-auto">
         <img src={logo} alt="dashboard" />
       </div> */}
-      <div class="nav-wrapper">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link" href="/admin/">
-              {/* <i class="material-icons">edit</i> */}
+      <div className="nav-wrapper">
+        <ul className="nav flex-column">
+          <li className="nav-item custom-item ">
+            <a className="nav-link custom-link" href="/admin/">
+              {/* <i className="material-icons">edit</i> */}
               <span>Dashboard</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link " href="/admin/webinars">
-              {/* <i class="material-icons">vertical_split</i> */}
+          <li className="nav-item custom-item ">
+            <a className="nav-link custom-link " href="/admin/webinars">
+              {/* <i className="material-icons">vertical_split</i> */}
               <span>Webinars</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link " href="/admin/internships">
-              {/* <i class="material-icons">vertical_split</i> */}
+          <li className="nav-item custom-item">
+            <a className="nav-link custom-link " href="/admin/internships">
+              {/* <i className="material-icons">vertical_split</i> */}
               <span>Internships</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link " href="/admin/add-webinar">
-              {/* <i class="material-icons">note_add</i> */}
+          <li className="nav-item custom-item">
+            <a className="nav-link custom-link" href="/admin/add-webinar">
+              {/* <i className="material-icons">note_add</i> */}
               <span>Add New Event</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link " href="/admin/add-internship">
-              {/* <i class="material-icons">note_add</i> */}
+          <li className="nav-item custom-item">
+            <a className="nav-link custom-link" href="/admin/add-internship">
+              {/* <i className="material-icons">note_add</i> */}
               <span>Add New Internship</span>
             </a>
           </li>

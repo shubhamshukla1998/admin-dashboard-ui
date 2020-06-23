@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <div className="main">
       <section className="sign-in">
-        <div className="container">
+        <div className="custom-container">
           <div className="signin-content">
             <div className="signin-image">
               <figure>
@@ -28,6 +28,7 @@ const Login = () => {
                   <input
                     type="email"
                     name="email"
+                    className="custom-input"
                     id="email"
                     placeholder="Email"
                     required
@@ -40,6 +41,7 @@ const Login = () => {
                   <input
                     type="password"
                     name="password"
+                    className="custom-input"
                     id="pass"
                     placeholder="Password"
                     required
@@ -49,9 +51,9 @@ const Login = () => {
                   <input
                     type="submit"
                     value="Log in"
+                    className="custom-input form-submit"
                     name="signin"
                     id="signin"
-                    className="form-submit"
                   />
                 </div>
               </form>

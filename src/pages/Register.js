@@ -8,7 +8,7 @@ const Register = () => {
   return (
     <div className="main">
       <section className="signup">
-        <div className="container">
+        <div className="custom-container">
           <div className="signup-content">
             <div className="signup-form">
               <h2 className="form-title">Sign up</h2>
@@ -22,6 +22,7 @@ const Register = () => {
                     name="name"
                     id="name"
                     placeholder="Your Name"
+                    className="custom-input"
                     required
                   />
                 </div>
@@ -34,6 +35,7 @@ const Register = () => {
                     name="email"
                     id="email"
                     placeholder="Your Email"
+                    className="custom-input"
                     required
                   />
                 </div>
@@ -46,6 +48,7 @@ const Register = () => {
                     name="password"
                     id="pass"
                     placeholder="Password"
+                    className="custom-input"
                     required
                   />
                 </div>
@@ -58,6 +61,7 @@ const Register = () => {
                     name="password"
                     id="rpass"
                     placeholder="Confirm Password"
+                    className="custom-input"
                     required
                   />
                 </div>
@@ -76,7 +80,7 @@ const Register = () => {
                 </div> */}
                 <div class="form-check">
                   <input
-                    class="form-check-input"
+                    className="form-check-input custom-input"
                     type="checkbox"
                     id="defaultCheck1"
                   />
@@ -90,7 +94,7 @@ const Register = () => {
                     value="Register"
                     name="signup"
                     id="signup"
-                    className="form-submit"
+                    className="form-submit custom-input"
                   />
                 </div>
               </form>

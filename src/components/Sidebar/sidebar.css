@@ -4,7 +4,7 @@
   height: calc(100vh - 3.75rem - 1px);
 }
 
-li {
+.custom-item {
   white-space: nowrap;
   min-width: 100%;
   max-width: 100%;
@@ -18,7 +18,7 @@ li {
   border-bottom: 1px solid #f0f2f5;
 }
 
-a {
+.custom-link {
   color: black !important;
   text-decoration: none;
 }
